@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Ask Your Question & Get Decided</h1>
+
+    <div class="container">
+      <div class="name">
+        <label for="fname" class="fullname">Name:</label>
+        <input type="text" id="fname" placeholder="your name please" required />
+      </div>
+
+      <div class="zodic">
+        <label for="yzodic" class="zodic">Zodic sign:</label>
+        <input
+          id="yzodic"
+          text="text"
+          placeholder="enter your zodic sign"
+          required
+        />
+      </div>
+
+      <div class="question">
+        <label for="que"> Question:</label>
+        <input
+          id="que"
+          text="text"
+          placeholder="enter your question"
+          required
+        />
+      </div>
+
+      <button class="decision-btn" onclick="decision()">Decision</button>
+      <p id="answer" class="ans"></p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

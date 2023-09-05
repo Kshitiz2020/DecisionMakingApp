@@ -1,0 +1,56 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+  text-align: center;   
+  color:rgb(43, 106, 127);
+}
+
+
+
+.container {
+  background-image: url('decision.jpg');
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items : center;
+    flex-direction: column;
+    row-gap: 10px;
+    width:300px;
+    margin:0 auto;
+    background-size: cover;
+    padding:25px;
+}
+
+.container > div >input {
+  padding:10px;
+  
+}
+
+.container > div >label {
+  display:inline-block;
+  width:80px;
+  color: cyan;
+}
+
+.decision-btn {
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  transition:background-color .25s linear;
+  background-color: rgba(43, 106, 127,0.7);
+}
+
+.decision-btn:hover {
+  cursor: pointer;
+  background-color: rgba(43, 106, 127,0.3);
+}
+.ans {
+  font-size: 31px;
+  background-color: rgba(43, 106, 127,0.8);
+  color:rgb(0,200,0);
+  text-align: center;
+}
